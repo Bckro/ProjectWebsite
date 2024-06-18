@@ -1,0 +1,36 @@
+/* App.css */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --primary-color: #007bff; /* Niebieski kolor g³ówny, np. dla przycisków */
+    --secondary-color: #6c757d; /* Szary kolor wtórny */
+    --background-color: #ffffff; /* Bia³y kolor t³a */
+    --text-color: #343a40; /* Kolor tekstu */
+    --accent-color: #8a2be2; /* Fioletowy kolor akcentu */
+    --navbar-color: #000000; /* Czarny kolor t³a nawigacji */
+    
+}
+
+
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif; /* U¿yj czcionki Roboto */
+    background-color: var(--background-color); /* Bia³y kolor t³a */
+    color: var(--text-color); /* Kolor tekstu */
+    scroll-behavior: smooth;
+}
+
+.App {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto Condensed', sans-serif; /* U¿yj czcionki Montserrat dla nag³ówków */
+}
+
+.button {
+    font-family: 'Nunito', sans-serif;;
+}

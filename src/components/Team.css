@@ -1,0 +1,75 @@
+/* Stylizowanie sekcji zespo³u */
+.team-section {
+    background-color: var(--background-color);
+    padding: 2rem 0;
+    text-align: center;
+    color: var(--text-color);
+}
+
+/* Stylizowanie tytu³u sekcji */
+.team-title {
+    font-size: 2.5rem;
+    color: var(--primary-color);
+}
+
+/* Stylizowanie kontenera dla cz³onków zespo³u */
+.members {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Stylizowanie rzêdu */
+.team-row {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 2rem; /* Odstêp miêdzy rzêdami */
+}
+
+.team-member-card {
+    margin: 1rem;
+    background: linear-gradient(135deg, var(--primary-color) 0%, var(--accent-color) 100%);
+    border: none;
+    border-radius: 15px; /* Zaokr¹glone rogi */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15); /* Lepsze cienie */
+    transition: transform 0.3s, box-shadow 0.3s; /* Dodajemy transition dla transformacji i cienia */
+    width: 300px; /* Sta³a szerokoœæ kart */
+    height: 400px; /* Sta³a wysokoœæ kart */
+    overflow: hidden; /* Ukrywanie wyciekaj¹cych elementów */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* Stylizowanie cz³onków zespo³u */
+.team-member {
+    padding: 1.5rem;
+    text-align: center;
+}
+
+    .team-member h5 {
+        font-size: 1.5rem; /* Wiêkszy rozmiar czcionki dla imienia */
+        font-weight: bold; /* Pogrubienie czcionki */
+        margin-bottom: 0.3rem;
+        color: #fff; /* Bia³y kolor tekstu dla lepszego kontrastu */
+    }
+
+    .team-member p {
+        font-size: 1.2rem;
+        margin-top: 0.3rem;
+        color: #fff; /* Bia³y kolor tekstu dla lepszego kontrastu */
+    }
+
+/* Stylizowanie obrazu cz³onków zespo³u */
+.team-member-image {
+    width: 120px; /* Wiêkszy obrazek */
+    height: 120px; /* Wiêkszy obrazek */
+    object-fit: cover;
+    border-radius: 50%; /* Zaokr¹glony obrazek */
+    margin-bottom: 1rem;
+    border: 4px solid #fff; /* Bia³a ramka wokó³ obrazka */
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1); /* Subtelny cieñ dla obrazka */
+}

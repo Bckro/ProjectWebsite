@@ -1,0 +1,88 @@
+.section-title {
+    text-align: center;
+    font-size: 36px;
+    color: var(--primary-color);
+    margin-bottom: 2rem;
+}
+
+.doc-section {
+    display: flex;
+    justify-content: center;
+}
+
+.doc-cards {
+    display: flex;
+    gap: 1rem; /* Odstêp miêdzy kartami */
+    justify-content: center;
+    flex-wrap: wrap; /* Karty zawin¹ siê, jeœli bêdzie ma³o miejsca */
+}
+
+.documentation-card {
+    border: 2px solid var(--accent-color);
+    border-radius: 15px;
+    margin-bottom: 4rem;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.3s ease;
+    width: 300px; /* Sta³a szerokoœæ kart */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 2rem;
+}
+
+
+.card-icon {
+    display: flex;
+    gap: 0.5rem;
+    justify-content: center; /* Wyœrodkowanie poziome */
+
+}
+
+    .card-icon .icon {
+        font-size: 2rem;
+        color: var(--accent-color);
+        justify-content:center;
+        transition: color 0.3s ease-in-out;
+    }
+
+
+.documentation-card .card-body {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Wyœrodkowanie pionowe */
+    align-items: center; /* Wyœrodkowanie poziome */
+    text-align: center;
+    flex-grow: 1;
+}
+
+.documentation-card h3 {
+    font-size: 24px;
+    color: var(--primary-color);
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align:center;
+    width: 100%;
+}
+
+.button-icon {
+    margin-right: 0.5rem;
+}
+
+.custom-button {
+    margin: 1rem;
+    display: flex;
+    font-family: 'Nunito', sans-serif;
+    align-items: center;
+    background: linear-gradient(130deg, var(--primary-color) 10%, var(--accent-color) 100%);
+    border: none;
+    color: white;
+    padding: 1rem 1.5rem;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}

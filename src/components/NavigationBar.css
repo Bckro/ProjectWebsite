@@ -1,0 +1,46 @@
+/* NavigationBar.css */
+
+.custom-navbar {
+    z-index: 100;
+    justify-content: space-between; /* Roz³o¿enie elementów wzd³u¿ osi poziomej */
+    align-items: center; /* Wyœrodkowanie elementów w pionie */
+    background-color: var(--navbar-color); /* Czarny kolor t³a nawigacji */
+    border-bottom: 3px solid var(--accent-color); /* Fioletowa linia oddzielaj¹ca nawigacjê */
+    padding: 1.5rem 0; /* Ustawienie odstêpu na górze i dole */
+}
+
+.ml-auto {
+    justify-content: center;
+    justify-items: center;
+}
+
+.navbar-brand {
+    color: var(--primary-color); /* Niebieski kolor tekstu dla brandu nawigacji */
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+    .navbar-brand:hover {
+        color: var(--accent-color); /* Zmiana koloru na fioletowy po najechaniu */
+    }
+
+.nav-links {
+    display: flex;
+    align-items: center; /* Wyœrodkowanie elementów w pionie */
+}
+
+.nav-link {
+    color: var(--background-color); /* Kolor tekstu */
+    cursor:pointer;
+    font-size: 1.2rem;
+    text-decoration: none;
+    margin-left: 2rem; /* Zwiêkszenie odstêpu miêdzy linkami */
+    transition: color 0.3s;
+}
+
+    .nav-link:hover {
+        color: var(--accent-color); /* Zmiana koloru na niebieski po najechaniu */
+    }
+
