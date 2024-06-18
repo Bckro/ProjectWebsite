@@ -27,7 +27,7 @@ const Team = () => {
                                 className="team-member"
                             >                                
                                 <h5>Paweł <br /> Banach</h5>
-                                <p>Rola</p>
+                                <p></p>
                             </motion.div>
                         </Card.Body>
                     </Card>
@@ -55,7 +55,7 @@ const Team = () => {
                             >
                                
                                 <h5>Emilia <br /> Depka</h5>
-                                <p>Rola</p>
+                                <p></p>
                             </motion.div>
                         </Card.Body>
                     </Card>
@@ -69,7 +69,7 @@ const Team = () => {
                             >
                                
                                 <h5>Kamil <br /> Macioszek</h5>
-                                <p>Rola</p>
+                                <p></p>
                             </motion.div>
                         </Card.Body>
                     </Card>
