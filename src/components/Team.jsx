@@ -41,7 +41,7 @@ const Team = () => {
                             >
                                 
                                 <h5>Marcin <br /> Boinski</h5>
-                                <p>Rola</p>
+                                <p></p>
                             </motion.div>
                         </Card.Body>
                     </Card>
