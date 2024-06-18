@@ -41,19 +41,19 @@ const About = () => (
             </Row>
             <Row className="image-row mt-2">
                 <Col md={4} className="image-container">
-                    <Image classname="photo" src="src/assets/img/testphoto1.jfif" fluid className="about-image" />
+                    <Image classname="photo" src="https://i.ibb.co/YtdqFLk/testphoto1.jpg" fluid className="about-image" />
                     <p className="image-caption">Opis obrazka 1</p>
                 </Col>
                 <Col md={4} className="image-container">
-                    <Image classname="photo" src="src/assets/img/testphoto2.jfif" fluid className="about-image" />
+                    <Image classname="photo" src="https://i.ibb.co/Mc9Zjkm/testphoto2.jpg" fluid className="about-image" />
                     <p className="image-caption">Opis obrazka 2</p>
                 </Col>
                 <Col md={4} className="image-container">
-                    <Image classname="photo" src="src/assets/img/testphoto3.jfif" fluid className="about-image" />
+                    <Image classname="photo" src="https://i.ibb.co/CzyNLk9/testphoto3.jpg" fluid className="about-image" />
                     <p className="image-caption">Opis obrazka 3</p>
                 </Col>
                 <Col md={4} className="image-container">
-                    <Image classname="photo"  src="src/assets/img/testphoto4.jfif" fluid className="about-image" />
+                    <Image classname="photo" src="https://i.ibb.co/9V1RJdq/testphoto4.jpg" fluid className="about-image" />
                     <p className="image-caption">Opis obrazka 4</p>
                 </Col>
             </Row>
