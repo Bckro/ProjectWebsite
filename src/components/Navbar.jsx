@@ -17,7 +17,7 @@ const NavigationBar = ({ sections }) => (
         <Container>
             <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="ml-auto" style={{ display: 'flex', alignItems: 'center' }}>
-                    <Navbar.Brand as={RouterLink} to="/">Projekt</Navbar.Brand> {/* Użyj Link z react-router-dom */}
+                    <Navbar.Brand as={RouterLink} to="/">ZPI School</Navbar.Brand> {/* Użyj Link z react-router-dom */}
                     {sections.map(section => (
                         <motion.div
                             key={section}
