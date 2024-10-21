@@ -16,7 +16,8 @@ const Schedule = () => {
         { date: 'Spotkanie 2', description: 'Zaprezentowanie przez wszystkich członków pomysłów tematu projektu oraz dyskusja.' },
         { date: 'Spotkanie 3', description: 'Ocena zaproponowych tematów. Analiza oraz ostateczny wybór tematu - aplikacja do anonimowego zgłaszania problemów w szkołach.' },
         { date: 'Spotkanie 4', description: 'Zweryfikowanie stworzonej strony internetowej - ocena, sugestie dotyczące poprawek.' },
-        { date: 'Spotkanie 5', description: 'Przekazanie dokumentacji oraz zatwierdzenie ostatecznej wersji strony internetowej..' },
+        { date: 'Spotkanie 5', description: 'Przekazanie dokumentacji oraz zatwierdzenie ostatecznej wersji strony internetowej.' },
+        { date: 'Spotkanie 6', description: 'Określenie, w jakich technologiach zostanie stworzony projekt. Podział ról. Stworzenie repozytorium na githubie. Stworzenie prostej bazy danych oraz frontendu formularza zgłoszeniowego.' },
     ];
 
     return (
