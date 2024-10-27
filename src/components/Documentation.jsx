@@ -30,14 +30,15 @@ const Documentation = () => {
                                     Raporty grupowe
                                     
                                 </h3>
-                                
+                                <a href="https://ukwbydgoszcz.sharepoint.com/:f:/s/S_ZPI.gr12_2024/EsYbrljavjJOsQzVC3c3MVkBrf8Y77K0ifxeKwxSnjuhnw?e=zFNKHn">
                                 <Button
                                     variant="primary"
                                     className="custom-button"
                                 >
                                     <FontAwesomeIcon icon={faDownload} className="button-icon" />
                                     Pobierz
-                                </Button>
+                                    </Button>
+                                </a>
                             </div>
                         </div>
                         <div className="documentation-card">
@@ -50,14 +51,15 @@ const Documentation = () => {
                                     Raporty indywidualne
                                     
                                 </h3>
-                                
+                                <a href="https://ukwbydgoszcz.sharepoint.com/:f:/s/S_ZPI.gr12_2024/EsYbrljavjJOsQzVC3c3MVkBrf8Y77K0ifxeKwxSnjuhnw?e=zFNKHn">
                                 <Button
                                     variant="primary"
                                     className="custom-button"
                                 >
                                     <FontAwesomeIcon icon={faDownload} className="button-icon" />
                                     Pobierz
-                                </Button>
+                                    </Button>
+                                </a>
                             </div>
                         </div>
                         <div className="documentation-card">

@@ -17,7 +17,8 @@ const Schedule = () => {
         { date: 'Spotkanie 3', description: 'Ocena zaproponowych tematów. Analiza oraz ostateczny wybór tematu - aplikacja do anonimowego zgłaszania problemów w szkołach.' },
         { date: 'Spotkanie 4', description: 'Zweryfikowanie stworzonej strony internetowej - ocena, sugestie dotyczące poprawek.' },
         { date: 'Spotkanie 5', description: 'Przekazanie dokumentacji oraz zatwierdzenie ostatecznej wersji strony internetowej.' },
-        { date: 'Spotkanie 6', description: 'Określenie, w jakich technologiach zostanie stworzony projekt. Podział ról. Stworzenie repozytorium na githubie. Stworzenie prostej bazy danych oraz frontendu formularza zgłoszeniowego.' },
+        { date: 'Spotkanie 6', description: 'Określenie, w jakich technologiach zostanie stworzony projekt. Podział ról. Stworzenie repozytorium na githubie. Stworzenie prostej bazy danych, frontendu oraz backendu formularza zgłoszeniowego.' },
+        { date: 'Spotkanie 7', description: 'Prezentacja pierwszej prostej wersji aplikacji. Ustalenie dalszych planów na rozwój aplikacji. Aktualizacja bazy danych, frontendu oraz backendu o możliwość logowania użytkowników z różnymi poziomami dostępów.' },
     ];
 
     return (
