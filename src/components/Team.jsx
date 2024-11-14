@@ -14,9 +14,6 @@ const Team = () => {
         >
             <Container className="members" id="team">
                 <h2 className="team-title">Zespół</h2>
-                {/* Pierwszy wiersz - Opiekun projektu */}
-               
-                {/* Drugi wiersz - Czterech członków */}
                 <div className="team-row">
                     <Card className="team-member-card">
                         <Card.Body>
@@ -27,7 +24,8 @@ const Team = () => {
                                 className="team-member"
                             >                                
                                 <h5>Paweł <br /> Banach</h5>
-                                <p></p>
+                                <br />
+                                <p>Baza danych</p>
                             </motion.div>
                         </Card.Body>
                     </Card>
@@ -41,7 +39,8 @@ const Team = () => {
                             >
                                 
                                 <h5>Marcin <br /> Boinski</h5>
-                                <p></p>
+                                <br />
+                                <p>Backend</p>
                             </motion.div>
                         </Card.Body>
                     </Card>
@@ -55,7 +54,8 @@ const Team = () => {
                             >
                                
                                 <h5>Emilia <br /> Depka</h5>
-                                <p></p>
+                                <br />
+                                <p>Frontend</p>
                             </motion.div>
                         </Card.Body>
                     </Card>
@@ -69,7 +69,8 @@ const Team = () => {
                             >
                                
                                 <h5>Kamil <br /> Macioszek</h5>
-                                <p></p>
+                                <br />
+                                <p>Backend</p>
                             </motion.div>
                         </Card.Body>
                     </Card>
@@ -85,6 +86,7 @@ const Team = () => {
                             >
                                
                                 <h5>Kamil<br /> Kupcewicz</h5>
+                                <br />
                                 <p>Opiekun Projektu</p>
                             </motion.div>
                         </Card.Body>

@@ -16,21 +16,12 @@ const About = () => (
                 <Col md={8}>
                     <div className="about-content">
                         <h2 className="about-title">O projekcie</h2>
-                        <p class="about-description">Nasza aplikacja do anonimowego zgłaszania problemów w szkołach wyróżnia się jako narzędzie wspierające tworzenie bezpiecznych i inspirujących środowisk edukacyjnych dla uczniów, nauczycieli i rodziców. Pragniemy udostępnić platformę opartą na pełnej anonimowości zgłoszeń, aby umożliwić płynne i bezpieczne raportowanie różnorodnych problemów, takich jak:
-                            <ul>
-                                <li>Przemoc fizyczna i słowna</li>
-                                <li>Cyberprzemoc</li>
-                                <li>Problemy zdrowotne i emocjonalne</li>
-                                <li>Niewłaściwe zachowania</li>
-                            </ul>
-                            Nasza aplikacja oferuje kompleksową gamę funkcji zalet, które wspierają naszą misję:
-                            <ul>
-                                <li><strong>Anonimowość i poufność</strong>: Zapewniamy pełną poufność i anonimowość zgłoszeń, co pozwala użytkownikom na swobodne i bezpieczne dzielenie się swoimi obawami, eliminując obawy o potencjalne reperkusje.</li>
-                                <li><strong>Intuicyjny interfejs i szybkość działania</strong>: Nasz interfejs użytkownika został starannie zaprojektowany, aby być intuicyjnym i łatwym w obsłudze, co umożliwia szybkie i wygodne zgłaszanie problemów bez zbędnych opóźnień.</li>
-                                <li><strong>Natychmiastowa reakcja i skuteczność</strong>: Każde zgłoszenie jest traktowane priorytetowo i natychmiast przekazywane odpowiednim osobom, co umożliwia szybką reakcję i skuteczne rozwiązanie problemów, zgodnie z naszym zaangażowaniem w zapewnienie bezpiecznego środowiska szkolnego.</li>
-                                <li><strong>Wsparcie dla różnorodnych potrzeb</strong>: Nasza aplikacja nie tylko umożliwia zgłaszanie problemów, ale także wspiera różnorodne potrzeby uczniów, nauczycieli i rodziców, abyśmy mogli wspólnie tworzyć szkoły, w których każdy czuje się szanowany, chroniony i zainspirowany do osiągania swojego pełnego potencjału.</li>
-                            </ul>
-                            Dzięki naszej aplikacji chcemy stworzyć szkoły, które stanowią oazę wspierającego i twórczego rozwoju, przyczyniając się do budowania społeczeństwa, w którym każdy głos jest usłyszany i każda obawa jest rozwiązana z szacunkiem i troską.</p>
+                        <p class="about-description">
+                            Szkolny Bezpiecznik to aplikacja umożliwiająca anonimowe zgłaszanie problemów pojawiających się w szkołach. Użytkownicy mogą w prosty sposób wypełnić formularz, podając swoje dane (adres e-mail oraz opcjonalnie imię), informacje o szkole oraz opis problemu. Każde zgłoszenie jest następnie przetwarzane przez administratorów, którzy po zalogowaniu mają możliwość kontaktu z osobą zgłaszającą, dodawania komentarzy oraz zmiany statusu zgłoszenia.
+                        </p>
+                        <p class="about-description">
+                            Aplikacja oferuje trzy poziomy dostępu, różniące się zakresem uprawnień – od podstawowego zarządzania zgłoszeniami po pełną administrację użytkownikami. Dodatkowo, zalogowani użytkownicy mogą przeglądać statystyki zgłoszeń, co pozwala na lepsze monitorowanie i analizę problemów w szkołach.
+                        </p>
                     </div>
                 </Col>
             </Row>
@@ -41,20 +32,24 @@ const About = () => (
             </Row>
             <Row className="image-row mt-2">
                 <Col md={4} className="image-container">
-                    <Image classname="photo" src="https://i.ibb.co/YtdqFLk/testphoto1.jpg" fluid className="about-image" />
-                    <p className="image-caption">Opis obrazka 1</p>
+                    <Image classname="photo" src="https://i.ibb.co/4gTch5j/Zrzut-ekranu-2024-11-14-095800.png" fluid className="about-image" />
+                    <p className="image-caption">Formularz zgłoszeniowy</p>
                 </Col>
                 <Col md={4} className="image-container">
-                    <Image classname="photo" src="https://i.ibb.co/Mc9Zjkm/testphoto2.jpg" fluid className="about-image" />
-                    <p className="image-caption">Opis obrazka 2</p>
+                    <Image classname="photo" src="https://i.ibb.co/7nXg7zx/Zrzut-ekranu-2024-11-14-095815.png" fluid className="about-image" />
+                    <p className="image-caption">Podgląd przesłanych zgłoszeń</p>
                 </Col>
                 <Col md={4} className="image-container">
-                    <Image classname="photo" src="https://i.ibb.co/CzyNLk9/testphoto3.jpg" fluid className="about-image" />
-                    <p className="image-caption">Opis obrazka 3</p>
+                    <Image classname="photo" src="https://i.ibb.co/stTJY79/Zrzut-ekranu-2024-11-14-095832.png" fluid className="about-image" />
+                    <p className="image-caption">Strona główna</p>
                 </Col>
                 <Col md={4} className="image-container">
-                    <Image classname="photo" src="https://i.ibb.co/9V1RJdq/testphoto4.jpg" fluid className="about-image" />
-                    <p className="image-caption">Opis obrazka 4</p>
+                    <Image classname="photo" src="https://i.ibb.co/ZxRsrsP/Zrzut-ekranu-2024-11-14-100406.png" fluid className="about-image" />
+                    <p className="image-caption">Edycja statusu i komentarza zgłoszenia</p>
+                </Col>
+                <Col md={4} className="image-container">
+                    <Image classname="photo" src="https://i.ibb.co/9ZY2z2z/Zrzut-ekranu-2024-11-14-100647.png" fluid className="about-image" />
+                    <p className="image-caption">Podgląd użytkowników</p>
                 </Col>
             </Row>
         </Container>

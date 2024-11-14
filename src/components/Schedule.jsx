@@ -19,6 +19,9 @@ const Schedule = () => {
         { date: 'Spotkanie 5', description: 'Przekazanie dokumentacji oraz zatwierdzenie ostatecznej wersji strony internetowej.' },
         { date: 'Spotkanie 6', description: 'Określenie, w jakich technologiach zostanie stworzony projekt. Podział ról. Stworzenie repozytorium na githubie. Stworzenie prostej bazy danych, frontendu oraz backendu formularza zgłoszeniowego.' },
         { date: 'Spotkanie 7', description: 'Prezentacja pierwszej prostej wersji aplikacji. Ustalenie dalszych planów na rozwój aplikacji. Aktualizacja bazy danych, frontendu oraz backendu o możliwość logowania użytkowników z różnymi poziomami dostępów.' },
+        { date: 'Spotkanie 8', description: 'Dodanie możliwości przeglądania zgłoszeń przez administratorów, dodatkowe podstrony, haszowanie haseł, poprawa frontendu, aktualizacja bazy danych.' },
+        { date: 'Spotkanie 9', description: 'Aktualizacja bazy danych oraz formularza zgłoszeniowego. Decyzja o nazwie aplikaci - Szkolny Bezpiecznik.' },
+
     ];
 
     return (

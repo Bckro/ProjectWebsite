@@ -22,9 +22,9 @@ const HeroSection = () => {
         >
             <Container className="mt-5" id="hero-section">
                 <div className="hero-content">
-                    <h1 className="title">Projekt ZPI</h1>
+                    <h1 className="title">Szkolny Bezpiecznik</h1>
                     <p className="description">
-                        Szkoła jest sercem edukacji, gdzie uczniowie spędzają większość swojego czasu poza domem. W związku z tym, zapewnienie bezpieczeństwa i wsparcia w szkolnym otoczeniu ma kluczowe znaczenie. Naszą misją jest nieustanne dążenie do polepszania jakości tych placówek, aby każdy uczeń mógł rozwijać się w atmosferze pełnej zaufania i zrozumienia.
+                        Aplikacja służąca do zgłaszania problemów w szkołach.
                     </p>
                     <Button onClick={handleLearnMoreClick}
                         variant="primary"

@@ -78,8 +78,8 @@ p{
     overflow: hidden; /* Ukrycie elementów wystaj¹cych poza ramkê */
     /* Gradientowa ramka */
     border: 4px solid;
-    width:400px;
-    height:400px;
+    width:600px;
+    height:300px;
 
     border-image: linear-gradient(135deg, var(--primary-color), var(--accent-color)) 1;
 }
