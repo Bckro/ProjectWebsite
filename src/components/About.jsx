@@ -22,6 +22,10 @@ const About = () => (
                         <p class="about-description">
                             Aplikacja oferuje trzy poziomy dostępu, różniące się zakresem uprawnień – od podstawowego zarządzania zgłoszeniami po pełną administrację użytkownikami. Dodatkowo, zalogowani użytkownicy mogą przeglądać statystyki zgłoszeń, co pozwala na lepsze monitorowanie i analizę problemów w szkołach.
                         </p>
+                        <a href="https://szkolnybezpiecznik.onrender.com/" className="styled-link" target="_blank" rel="noopener noreferrer">
+                            Link do aplikacji
+                        </a>
+
                     </div>
                 </Col>
             </Row>

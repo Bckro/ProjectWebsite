@@ -41,7 +41,6 @@ const NavigationBar = ({ sections }) => (
                                     section === 'about' ? 'O projekcie' :
                                         section === 'team' ? 'Zespół' :
                                             section === 'schedule' ? 'Harmonogram' :
-                                                section === 'documentation' ? 'Dokumentacja' :
                                                     ''}
                             </Nav.Link>
                         </motion.div>

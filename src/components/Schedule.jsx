@@ -24,7 +24,10 @@ const Schedule = () => {
         { date: 'Spotkanie 10', description: 'Rozszerzenie bazy danych o dodatkowe kolumny. Modyfikacja formularza zgłoszeniowego o możliwość pobierania z tabeli szkoly danych przy pomocy zapytania SELECT. Dodanie strony do zarządzania administratorami, dodanie możliwości filtrowania i sortowania użytkowników oraz zgłoszeń. Dodanie strony ze szczegółami danego zgłoszenia oraz szkoły. Aktualizacja strony internetowej. Przepisanie całości aplikacji, by korzystała z React-Bootstrap oraz dostosowanie stylizacji stron.' },
         { date: 'Spotkanie 11', description: 'Drobne poprawy funkcjonalności aplikacji.' },
         { date: 'Spotkanie 12', description: 'Ostateczne zakończenie budowy aplikacji.' },
-        { date: 'Spotkanie 13', description: 'Spotkanie w celu omówienia prezentacji projektu. Wdrożenie aplikacji na stronę internetową.' }
+        { date: 'Spotkanie 13', description: 'Spotkanie w celu omówienia prezentacji projektu. Wdrożenie aplikacji na stronę internetową.' },
+        { date: 'Spotkanie 14', description: 'Spotkanie w celu omówienia biznesowej prezentacji projektu.' },
+        { date: 'Spotkanie 15', description: 'Próba generalna prezentacji.' },
+        { date: 'Spotkanie 16', description: 'Oficjalna prezentacja aplikacji Szkolny Bezpiecznik oraz zamknięcie projektu.' }
 
     ];
 
